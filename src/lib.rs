@@ -45,6 +45,7 @@ pub mod handshake;
 
 pub mod x509 {
     pub mod der;
+    pub mod cert;
 }
 
 #[cfg(test)] mod test;
